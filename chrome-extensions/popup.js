@@ -30,9 +30,9 @@ document.getElementById("generate-button").addEventListener("click", function ()
   function formatReply(reply) {
     return `
       <div>
-        <p><strong>Dear User,</strong></p>
+        <p><strong>Example Answer,</strong></p>
         <p>${reply}</p>
-        <p>Best regards,<br>Your Assistant</p>
+        <p><strong>-----------------------------</strong></p>
       </div>
     `;
   }
